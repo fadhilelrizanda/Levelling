@@ -1,0 +1,23 @@
+/* navbar */
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+.jumbotron{
+    background-image: url(img/landing.jpg);
+    background-size: cover;
+    height: 650px;
+    padding-top: 200px;
+    padding-left: 100px;
+    margin-top: -75px;
+}
+.lead{
+
+}
+.jumbotron .display-4{
+    padding-bottom: 20px;
+}
+
+.jumbotron .lead{
+    padding-bottom : 20px;
+}
