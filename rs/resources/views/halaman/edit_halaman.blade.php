@@ -40,7 +40,7 @@ if (mysqli_num_rows($query) < 1) {
 ?>
 
 <body>
-    <a href="/test" style="color: black;"><button type="button" class="btn btn-primary">Kembali</button></a>
+    <a href="/page" style="color: black;"><button type="button" class="btn btn-primary">Kembali</button></a>
     <div class="container">
         <h1 class="alert alert-primary text-left mt-3">Masukkan Data Pasien</h1>
 
@@ -102,18 +102,29 @@ if (mysqli_num_rows($query) < 1) {
             </div>
             <div class="form-group">
                 <label for="f">Riwayat Penyakit</label>
-                <textarea type="text" name="riwayat" class="form-control" rows="5" placeholder="Masukkan Riwayat Penyakit Anda" id="f" required value="<?php echo $pasien['riwayat']; ?>"></textarea>
+                <!-- <textarea type="text" name="riwayat" class="form-control" rows="5" placeholder="Masukkan Riwayat Penyakit Anda" id="f" required value="<?php echo $pasien['riwayat']; ?>"></textarea> -->
+                <input type="text" name="riwayat" class="form-control" placeholder="Masukkan Alamat Anda" id="b" value="<?php echo $pasien['riwayat']; ?>" required>
             </div>
             <div class="form-group">
                 <label for="g">Keluhan</label>
-                <textarea type="text" name="keluhan" class="form-control" rows="5" placeholder="Masukkan Keluhan Anda" id="g" required value="<?php echo $pasien['keluhan']; ?>"></textarea>
+                <!-- <textarea type="text" name="keluhan" class="form-control" rows="5" placeholder="Masukkan Keluhan Anda" id="g" required value="<?php echo $pasien['keluhan']; ?>"></textarea> -->
+                <input type="text" name="keluhan" class="form-control" placeholder="Masukkan Alamat Anda" id="b" value="<?php echo $pasien['keluhan']; ?>" required>
             </div>
             <button type="submit" class="btn btn-primary btn-block" name="daftar">Submit</button>
 
         </form>
     </div>
 
+    <?php
 
+    $id = $_GET['id'];
+
+    // buat query hapus
+    $sql = "DELETE FROM pasien WHERE id=$id";
+    $query = mysqli_query($dabes, $sql);
+
+
+    ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

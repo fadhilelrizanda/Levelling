@@ -25,4 +25,34 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function daftar()
+    {
+        return view('halaman.daftar_pasien');
+    }
+
+    public function list()
+    {
+        return view('halaman.list');
+    }
+
+    public function prosesp()
+    {
+        return view('halaman.proses-pendaftaran');
+    }
+
+    public function edithalaman()
+    {
+        return view('halaman.edit_halaman');
+    }
+
+    public function hapus()
+    {
+        return view('halaman.hapus');
+    }
+
+    public function edit()
+    {
+        return view('halaman.edit');
+    }
 }

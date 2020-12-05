@@ -18,19 +18,39 @@
 
                     <div class="card text-center">
                         <div class="card-header">
-                            Featured
+                            Instansi
                         </div>
                         <div class="card-body">
                             <img src="img/rs.jpg" class="img-fluid" alt="Responsive image">
-                            <h5 class="card-title">Rumah Sakit Neotelemetri</h5>
-                            <p class="card-text">Nisi id officia incididunt id exercitation quis ea. Voluptate sunt est in mollit duis. Sit pariatur eiusmod aute in consectetur nisi deserunt laborum esse ut duis eu.
-
-                                Sit ex consequat aute aute consectetur laboris magna. Enim reprehenderit elit exercitation anim velit anim magna. Et aute ut anim nulla pariatur nulla dolor nulla occaecat veniam consequat enim ea.
-
-                                Qui eu Lorem occaecat deserunt reprehenderit. Sint ipsum esse ad excepteur. Aute ex cillum exercitation esse irure duis incididunt voluptate est velit proident. Voluptate ea ipsum duis reprehenderit aliquip cillum aliquip amet ut voluptate do occaecat. Non minim laboris sunt consequat irure sit veniam voluptate mollit officia culpa magna ullamco. Eu proident sint in id do est ut officia consectetur aliqua mollit ad.
+                            <h5 class="card-title">Rumah Sakit Aksa</h5>
+                            <p class="card-text">RS Aksa merupakan rumah sakit kelas A yang menjadi rujukan tertinggi (Top referal Hospital) di Provinsi Sumatera Barat,
+                                juga menjadi Rumah Sakit Rujukan Nasional dan RS Pedidikan yang bermutu dan berdaya saing di tahun 2045. Beberapa unggulan RS Aksa antara alin,
+                                menjadi Pusat unggulan Nasional dalam Bidang Kedokteran Nuklir & menjadi satu-satunya Pusat Pendidikan Spesialis Kedokteran Nuklir; pelayanan Teknologi /
+                                Reproduksi Berbantu, Pelayanan Kardiologi; Pelayanan Onkologi & Infeksi dan Pelayanan Transplantasi Ginjal.
 
                             </p>
-                            <button type="button" class="btn btn-success"><a href="{{ url('test') }}" style="color:black">Informasi lebih lanjut</a>
+                            <button type="button" class="btn btn-success"><a href="{{ url('page') }}" style="color:black">Informasi lebih lanjut</a>
+                            </button>
+                        </div>
+                        <div class="card-footer text-muted">
+
+                        </div>
+                    </div>
+
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Instansi
+                        </div>
+                        <div class="card-body">
+                            <img src="img/rs2.jpg" class="img-fluid" alt="Responsive image">
+                            <h5 class="card-title">Rumah Sakit Segi</h5>
+                            <p class="card-text">RS Segi merupakan rumah sakit kelas A yang menjadi rujukan tertinggi (Top referal Hospital) di Provinsi Sumatera Barat,
+                                juga menjadi Rumah Sakit Rujukan Nasional dan RS Pedidikan yang bermutu dan berdaya saing di tahun 2045. Beberapa unggulan RS Aksa antara alin,
+                                menjadi Pusat unggulan Nasional dalam Bidang Kedokteran Nuklir & menjadi satu-satunya Pusat Pendidikan Spesialis Kedokteran Nuklir; pelayanan Teknologi /
+                                Reproduksi Berbantu, Pelayanan Kardiologi; Pelayanan Onkologi & Infeksi dan Pelayanan Transplantasi Ginjal.
+
+                            </p>
+                            <button type="button" class="btn btn-success"><a href="#" style="color:black">Informasi lebih lanjut</a>
                             </button>
                         </div>
                         <div class="card-footer text-muted">

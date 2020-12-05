@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<a href="/test" style="color: black;"><button type="button" class="btn btn-primary">Kembali</button></a>
+	<a href="/page" style="color: black;"><button type="button" class="btn btn-primary">Kembali</button></a>
 	<div class="container">
 		<h1 class="alert alert-primary text-left mt-3">Masukkan Data Pasien</h1>
 
@@ -44,7 +44,7 @@
 			<div class="form-group">
 				<label>Jenis Kelamin</label>
 				<div class="form-check">
-					<input type="radio" class="form-check-input" name="kelamin" value="laki-laki">
+					<input type="radio" class="form-check-input" name="kelamin" value="laki-laki" required>
 					<label>Laki-laki</label>
 				</div>
 				<div class="form-check">

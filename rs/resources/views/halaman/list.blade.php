@@ -28,7 +28,7 @@ if (!$dabes) {
 </head>
 
 <body>
-	<a href="/test" style="color: black;"><button type="button" class="btn btn-primary">Kembali</button></a>
+	<a href="/page" style="color: black;"><button type="button" class="btn btn-primary">Kembali</button></a>
 	<div class="container">
 		<h1 class="alert alert-success text-left mt-5">Daftar Nama Pasien Rumah Sakit Neotelemetri</h1>
 		<table class="table table-bordered">
@@ -49,11 +49,11 @@ if (!$dabes) {
 			<?php
 			$sql = "SELECT * FROM pasien";
 			$query = mysqli_query($dabes, $sql);
-
+			$incre = 1;
 			while ($pasien = mysqli_fetch_array($query)) {
 				echo "<tr>";
 
-				echo "<td>" . $pasien['id'] . "</td>";
+				echo "<td>" . $incre . "</td>";
 				echo "<td>" . $pasien['nama'] . "</td>";
 				echo "<td>" . $pasien['alamat'] . "</td>";
 				echo "<td>" . $pasien['tempat_lahir'] . "</td>";
@@ -65,6 +65,7 @@ if (!$dabes) {
 				echo "<td>" . $pasien['keluhan'] . "</td>";
 
 				echo "</tr>";
+				$incre++;
 			}
 			?>
 		</table>
